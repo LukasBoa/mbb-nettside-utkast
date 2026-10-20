@@ -1283,3 +1283,5 @@ summary .ico,.pm .xtra-note .ico{color:var(--ink)}
 .sticker{background:var(--olive);color:var(--cream);box-shadow:0 14px 30px -12px rgb(82 96 59/.7)}
 .pmh .sticker{box-shadow:0 0 0 5px var(--cream),0 14px 30px -12px rgb(82 96 59/.7)}
 .bg-deep{--glow:#FFFFFF;--glow-h:#F9F2E0}
+.final,.footer{--glow:#FFFFFF;--glow-h:#F9F2E0}
+.final .lp-lofter li::before{background-color:#FFFFFF}
