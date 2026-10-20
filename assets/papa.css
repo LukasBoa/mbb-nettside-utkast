@@ -903,7 +903,7 @@ h2{line-height:1.06}
 .pm .vi.first{background:var(--card)}
 .pm-how .visit-card::before{background:var(--sand)}
 .sec.bg-deep:not(.final){background:var(--berry)}
-.final{--deep-rgb:2 117 63;--deep-d:var(--olive);background:var(--olive)}
+.final{--deep-rgb:82 96 59;--deep-d:var(--olive);background:var(--olive)}
 .footer{background:var(--olive-d)}
 .res h2{color:var(--ink)}
 summary .ico,.pm .xtra-note .ico{color:var(--ink)}
@@ -944,9 +944,10 @@ summary .ico,.pm .xtra-note .ico{color:var(--ink)}
 .frame.pola.wide .pola-tekst,.hero-photo.wide .pola-tekst{transform:rotate(-.5deg)}
 @media (max-width:900px){.hero-photo.pola-foto.wide .sticker{right:4px;top:-2%}}
 .sec.bg-krem{background:var(--cream)}
-.sec.bg-hvit{background:var(--card)}
-.sec.bg-krem,.sec.bg-hvit{box-shadow:0 22px 34px -26px rgb(47 22 19/.32)}
-.bg-hvit .help-lists .cant{background:var(--cream)}
+.sec.bg-gronn{background:var(--gronn-lys)}
+.sec.bg-krem,.sec.bg-gronn{box-shadow:0 22px 34px -26px rgb(47 22 19/.32)}
+.bg-gronn .item .ic::before,.bg-gronn .checks .ck::before{background:var(--cream)}
+.bg-gronn .help-lists .cant{background:rgb(255 253 248/.7)}
 .lp .brand{cursor:default}
 .lp-ring{pointer-events:auto;display:inline-flex;align-items:center;gap:9px;height:54px;padding:0 24px 0 20px;border-radius:999px;background:var(--card);color:var(--deep);font:850 1.1875rem var(--display);letter-spacing:-.005em;text-decoration:none;white-space:nowrap;box-shadow:0 16px 32px -20px rgb(var(--deep-rgb)/.55);transition:background .2s}
 .lp-ring:hover{background:var(--sand)}
@@ -1272,28 +1273,12 @@ summary .ico,.pm .xtra-note .ico{color:var(--ink)}
 @media (max-width:620px){.visit-card::before,.pm-how .visit-card::before{transform:rotate(-1.8deg)}}
 .sec.uten-bue{border-radius:0;box-shadow:none;padding-bottom:calc(var(--pad)*.5);margin-bottom:0}
 .sec.uten-bue+.sec.samme{padding-top:calc(var(--pad)*.5)}
-:root{--olive:#5A8F48;--olive-d:#5A8F48;--gronn-lys:#C8DCB0}
-.bg-glow{background:var(--card);color:var(--ink)}
-.item .ic::before,.checks .ck::before,.pm .vi .ck::before,.pm .win .ck::before,.om-ic::before,.job-ic::before,.lp-lofter li::before{background-color:var(--gronn-lys)}
-.pm .xtra-note>.ico{background:radial-gradient(circle 15px at 29px 29px,var(--gronn-lys) 14px,transparent 15px)}
-.visit-card::before,.pm-how .visit-card::before,.bg-krem .visit-card::before{background:var(--gronn-lys)}
-.final-bg{display:none}
-.sec.final{color:var(--ink)}
-.final h2{color:var(--ink)}
-.final .lead,.final .more{color:var(--body)}
-.final :focus-visible{outline-color:var(--ink)}
-.final-tel{color:var(--ink)}
-.final-tel small{color:var(--muted)}
-.final-tel .circle{background:var(--olive);color:#fff}
-.final-form{background:var(--card);box-shadow:0 30px 60px -28px rgb(47 22 19/.38)}
-.lp-lofter li{color:var(--ink)}
-.footer{background:var(--cream);color:var(--body)}
-.footer :focus-visible{outline-color:var(--ink)}
-.footer h4,.footer .foot-h{color:var(--olive)!important}
-.footer a,.footer a:hover{color:var(--ink)}
-.footer .foot-logo{box-shadow:0 12px 26px -16px rgb(47 22 19/.4)}
-.footer .legal,.mb-tag{border-color:rgb(47 22 19/.16)}
-.mb-tag p{color:var(--ink)}
-.mb-tag em{color:var(--berry)}
-.mb-tag img{filter:brightness(0);opacity:.78}
-.bg-hvit :is(.visit-card,.limits,.price.light-card,.addon,.card,.rcard,.kort,.see-all,.job-tile,.job-parent,.om-card,.om-person,.vm-kort,.final-form,.pm .cmp,.pm .win,.pm .vi,.pm .terms-card){background:var(--cream)}
+:root{--olive:#52603B;--olive-d:#52603B;--gronn-lys:#E1EAD1;--gronn-ring:#C8DCB0}
+.bg-glow{background:var(--gronn-lys);color:var(--ink)}
+.item .ic::before,.checks .ck::before,.pm .vi .ck::before,.pm .win .ck::before,.om-ic::before,.job-ic::before{background-color:var(--gronn-ring)}
+.pm .xtra-note>.ico{background:radial-gradient(circle 15px at 29px 29px,var(--gronn-ring) 14px,transparent 15px)}
+.visit-card::before,.pm-how .visit-card::before,.bg-krem .visit-card::before{background:var(--gronn-ring)}
+.bg-gronn .job-points .job-ic::before{background:var(--cream)}
+.bg-gronn .visit-card::before,.bg-gronn .pm-how .visit-card::before{background:var(--cream)}
+.sticker{background:var(--olive);color:var(--cream);box-shadow:0 14px 30px -12px rgb(82 96 59/.7)}
+.pmh .sticker{box-shadow:0 0 0 5px var(--cream),0 14px 30px -12px rgb(82 96 59/.7)}
